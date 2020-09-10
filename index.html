@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Tribute Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <style>
+        #main {
+            height: inherit;
+            width: inherit;
+            background: linear-gradient(0deg, #cdc9c6, #cecdc8, #dbdbdd, #e3e3e5, #e9eaec, #ededed, #edecec, #f1f1f1, #f3f5f4, #f5f5f5, #f7f7f7, #f6f6f6);
+            border: 1px solid;
+            border-color: #f6f6f6;
+
+            margin-top: 27px;
+            margin-bottom: 27px;
+            border-radius: 0.3%;
+        }
+
+        #box1_child {
+            width: inherit;
+            height: 655px;
+            margin-right: 12px;
+        }
+
+        #box1_child2 {
+            width: inherit;
+            height: inherit;
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+
+        }
+
+        #title {
+            font-family: 'Dancing Script', cursive;
+            text-align: center;
+            color: #cfaf71;
+            font-size: 76px;
+        }
+
+        #title_details {
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            font-size: 18px;
+        }
+
+        #image {
+            height: 555px;
+            margin: auto;
+            margin-bottom: 0;
+            border-radius: 2%;
+        }
+
+        #image:hover {
+            transform: scale(1.1);
+        }
+
+        #img-div {
+            display: flex;
+            flex-direction: column;
+            height: inherit;
+        }
+
+        #img-caption {
+            text-align: center;
+            font-style: italic;
+        }
+
+        #tribute-info {
+            margin: auto;
+            padding-bottom: 105px;
+            padding-top: 50px;
+            font-size: 32px;
+            font-family: 'Courgette', cursive;
+        }
+
+        #tribute-link {
+            color: blue;
+        }
+
+        #list {
+            margin: auto;
+            padding-bottom: 22px;
+        }
+
+        #final-info {
+            font-size: 18px;
+            margin: auto;
+            padding-bottom: 30px;
+        }
+
+        #list-item {
+            margin: 0 0 8px 0;
+            font-family: 'Raleway', sans-serif;
+            font-size: 18px;
+
+        }
+
+        #poem {
+            font-family: 'Caveat', cursive;
+            margin: auto;
+            font-size: 40px;
+            padding-top: 70px;
+            padding-bottom: 73px;
+
+        }
+    </style>
+
+<body>
+    <div id="main">
+        <h1 id="title">Emily_Dickinson</h1>
+        <h4 id="title_details">America’s greatest and most original poets of all time.</h4>
+        <div id="box1_child">
+            <div id="img-div">
+                <img id="image" src="emily-dickinson.webp" alt="image">
+                <p id="img-caption"> an original portait of Emily Dickinson</p>
+            </div>
+        </div>
+        <div id="box1_child2">
+            <p id="tribute-info"> a timeline of Emily's life</p>
+            <ul id="list">
+                <li id="list-item">1830 - Born in Amherst, Massachusetts </li>
+                <li id="list-item">1840 - Started education at Amherst Academy</li>
+                <li id="list-item">1847 - Entered Mount Holyoke Female Seminary (now Mount Holyoke College) </li>
+                <li id="list-item">1855 - moved,somewhat reluctantly, with her family back to the Homestead</li>
+                <li id="list-item">1863 - the poet settled into a quiet, reclusive existence with her parents and
+                    sister. </li>
+                <li id="list-item">She wrote about 1,800 poems, majority of them in secrecy and with
+                    very little of them published</li>
+
+                <li id="list-item">1886 - She remained in poor health until she died at age 55.</li>
+                <li id="list-item">After her sister's death,Lavinia discovered hundreds of poems that Dickinson had
+                    crafted over the years.</li>
+            </ul>
+            <p id="poem"> “Faith” is a fine invention
+                For Gentlemen who see!
+                <br>
+                But Microscopes are prudent
+                In an Emergency!
+                <br>
+                --- Emily Dickinson
+            </p>
+            <p id="final-info"> Intrested in knowing her more! click <a id="tribute-link"
+                    href="https://www.emilydickinsonmuseum.org/emily-dickinson/biography/" target="_blank">here</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
