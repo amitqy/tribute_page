@@ -1,2 +1,3 @@
 # tribute_page
-A static website build using only html and css and only for desktops
+A static responsive website build using only html and css
+https://amitqy.github.io/tribute_page/
