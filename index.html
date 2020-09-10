@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <style>
         #main {
             height: inherit;
@@ -26,8 +25,8 @@
 
         #box1_child {
             width: inherit;
-            height: 655px;
             margin-right: 12px;
+            display: flex;
         }
 
         #box1_child2 {
@@ -50,11 +49,13 @@
             text-align: center;
             font-family: 'Lato', sans-serif;
             font-size: 18px;
+            padding-bottom: 50px;
         }
 
         #image {
-            height: 555px;
+            height: auto;
             margin: auto;
+            max-width: 100%;
             margin-bottom: 0;
             border-radius: 2%;
         }
@@ -67,6 +68,7 @@
             display: flex;
             flex-direction: column;
             height: inherit;
+            margin: auto;
         }
 
         #img-caption {
@@ -116,11 +118,12 @@
 
 <body>
     <div id="main">
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         <h1 id="title">Emily_Dickinson</h1>
         <h4 id="title_details">America’s greatest and most original poets of all time.</h4>
         <div id="box1_child">
             <div id="img-div">
-                <img id="image" src="emily-dickinson.webp" alt="image">
+                <img id="image" src="Black-white_photograph_of_Emily_Dickinson.jpg" alt="image">
                 <p id="img-caption"> an original portait of Emily Dickinson</p>
             </div>
         </div>
@@ -133,12 +136,12 @@
                 <li id="list-item">1855 - moved,somewhat reluctantly, with her family back to the Homestead</li>
                 <li id="list-item">1863 - the poet settled into a quiet, reclusive existence with her parents and
                     sister. </li>
-                <li id="list-item">She wrote about 1,800 poems, majority of them in secrecy and with
-                    very little of them published</li>
 
                 <li id="list-item">1886 - She remained in poor health until she died at age 55.</li>
                 <li id="list-item">After her sister's death,Lavinia discovered hundreds of poems that Dickinson had
                     crafted over the years.</li>
+                <li id="list-item">She wrote about 1,800 poems, majority of them in secrecy and with
+                    very little of them published</li>
             </ul>
             <p id="poem"> “Faith” is a fine invention
                 For Gentlemen who see!
